@@ -2,11 +2,13 @@ const app = require('./shared/Express');
 const firebase = require('./shared/Firebase');
 const databaseRef = firebase.databaseRef;
 const defaultAuth = firebase.defaultAuth;
-const coinbase = require('./shared/Coinbase');
+const bitcoin = require('./shared/Bitcoin');
 
 const btcToUsd = 5782.24;
 const etherToUsd = 305.99;
 const lcToUsd = 54.83;
+
+//bitcoin.sendMoney(2000, '13kvMrLfVHurj2s3SrGebt2Csy2um3Fbt1', '16q6q184YDaTCeCCqh1uEXDAcM4nxrgrR2');
 
 app.post('/api/donate', function (request, result) {
     const projectId = request.query['project_id'];
@@ -34,7 +36,7 @@ app.post('/api/create_user', function (request, result) {
 });
 
 app.get('/api/get_balance', function (request, result) {
-    coinbase.getBalance(result);
+    
 });
 
 app.get('/api/get_test_user', function (request, result) {
@@ -44,6 +46,8 @@ app.get('/api/get_test_user', function (request, result) {
     .then(function(snapshot) {
         if (snapshot.val()) {
             const testUser = snapshot.val();
+            testUser['user'] = user;
+            delete testUser['address'];
             result.status(200).send(testUser);
         } else {
             result.sendStatus(500);
@@ -81,6 +85,7 @@ app.get('/api/get_projects', function (request, result) {
             const projects = [];
             for (id in val) {
                 const project = val[id];
+                delete project['account'];
                 project['project_id'] = id;
                 projects.push(project);
             }
@@ -104,6 +109,7 @@ app.get('/api/get_project', function (request, result) {
     databaseRef.child(`projects/${projectId}`).once('value').then(function(snapshot) {
         if (snapshot.val()) {
             var project = snapshot.val();
+            delete project['account'];
             project['progress'] = project['current'] / project['goal'];
             result.status(200).send();
         } else {

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/save-energy-project/backend#readme",
   "dependencies": {
+    "bitcoinjs-lib": "^3.2.1",
     "body-parser": "*",
     "coinbase": "^2.0.6",
     "express": "^4.16.2",
