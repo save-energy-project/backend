@@ -1,0 +1,51 @@
+[
+    {
+        "pictures" : ["https://www.wired.com/images_blogs/wiredscience/2009/10/_mg_45482.jpg", "https://www.wired.com/images_blogs/wiredscience/2009/10/william-adjusting-one-windmill.jpg"],
+        "title" : "Wind Mills For Hope",
+        "description": "Hello!\n My name is William Kamkwamba and I am trying to build windmills for my village.\nIdeally, we would like to build a residential windmill for each of our homes.\nThis comes out to about $10,000 USD per windmill at 15 homes for our village plus maintenance costs.",
+        "goal": 30.48,
+        "current": 6.53,
+        "location": "Masitala, Malawi"
+      },
+    {
+        "pictures" : ["https://www.sullivansolarpower.com/assets/public/img/residential-solar-panel-mounting-asphalt-shingle-c.jpg", "http://www.greencollarasia.com/wp-content/uploads/2011/11/Solar-Panel-Source-Flickr-Mike-Weston.jpg", "https://www.roofcalc.org/wp-content/uploads/Solar-Install-on-Standing-Seam-Metal-1200x896.jpg"],
+        "title" : "Business to Solar",
+        "description": "One of my lifelong goals has been convert my business to solar energy!\nTo do this, I'd like install a medium sized gridtie on top of my small business, which would cost around $25k before tax rebates\nThank you for your support! I really appreciate it\nInvestors will get return on investment through the money we save on energy costs",
+        "goal": 4.35,
+        "current": 3.31,
+        "location": "Porto-Novo, Benin"
+      },
+    {
+        "pictures" : ["https://media.wired.com/photos/5926c0228d4ebc5ab806b5b7/master/pass/1_PROTERRA-E214.jpg", "https://thumbs-prod.si-cdn.com/V4H-l_KCsl5E4RwmG611wvZfVIA=/1072x720/filters:no_upscale()/https://public-media.smithsonianmag.com/filer/0b/4a/0b4af8e2-f626-4da9-95c9-1def225d7e6d/proterra-electric-bus.jpg"],
+        "title" : "Electric Bus",
+        "description": "The City of Springfield is looking for investors to fund the addition of electric vehicles to its public transportation fleet\nPlease inquire below for further information about this investment opportunities or others\nspringfield@springfield.org",
+        "goal": 121.93,
+        "current": 60.97,
+        "location": "Sprinfield, Illinois"
+      },
+    {
+        "pictures" : ["https://i.pinimg.com/originals/82/18/b9/8218b91648aa86b24cf89a3a91d1d67b.jpg", "https://energy.gov/sites/prod/files/styles/borealis_default_hero_respondxl/public/geothermal_heat_pumps_12333446.jpg?itok=S8gErOEg"],
+        "title" : "Geothermal Heat Pump for Crest Street",
+        "description": "Our neighborhood wants to construct a geothermal heat pump. A lot of the residents in our neighborhood can not afford the rising cost of electricity. We hope the heat pump will make subsidize the cost of electricity for everyone.",
+        "goal": 4.47,
+        "current": 0.79,
+        "location": "Durham, US"
+      },
+    {
+        "pictures" : ["https://newsofnigeria.com/wp-content/uploads/2016/04/solar-energy-in-africa.jpg", "http://www.smallstarter.com/wp-content/uploads/2013/08/1.solar_power_business_4.jpg", "https://solarpowerforafrica.com/wp-content/uploads/2016/05/solar-energy.jpg"],
+        "title" : "Local Business Solar Panels",
+        "description": "Our business spends about a bit coin a year to maintain energy costs. We would like to invest in solar to replace \nour current energy. Extra money will be reinvested in the company and money will be paid back as our company grows.",
+        "goal": 1.83,
+        "current": 1.01,
+        "location": "Bilaspur, India"
+      },
+    {
+        "pictures" : ["http://www.cleanenergyauthority.com/images/news/201309/106713_main_5_1_pr_kalkbult_400_0.jpg", "https://i.pinimg.com/736x/1f/0c/7d/1f0c7d5e1e2082e9b9e7852986e137f5--solar-energy-renewable-energy.jpg", "https://cdn.face2faceafrica.com/www/wp-content/uploads/2016/12/largest-solar-power-plant-in-east-Africa-774x533.jpg"],
+        "title" : "Solar Farm",
+        "description": "Our community is trying to build a 500kW Solar Farm for our community.\n The farm will be used to power about 150 households in our local area.",
+        "goal": 73.16,
+        "current": 69.67,
+        "location": "Touwsrivier, South Africa"
+      }
+    ]
+  

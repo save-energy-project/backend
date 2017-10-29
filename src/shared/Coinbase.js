@@ -6,11 +6,7 @@ var client   = new coinbase.Client({
 });
 
 function getBalance(result){
-    client.getAccounts({}, function(err, accounts) {
-        accounts.forEach(function(acct) {
-          console.log('my bal: ' + acct.balance.amount + ' for ' + acct.name);
-        });
-    });
+    
 }
 
 module.exports = {

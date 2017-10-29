@@ -12,4 +12,7 @@ const defaultAuth = defaultApp.auth();
 const database = defaultApp.database();
 const databaseRef = database.ref();
 
-module.exports = databaseRef;
+module.exports = {
+    databaseRef,
+    defaultAuth
+}
